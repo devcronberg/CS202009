@@ -7,7 +7,7 @@ namespace FejlDemo
     {
         static void Main(string[] args)
         {
-
+            // test øæghlk eøeæklh døh tfi
             try
             {
                 int tal = HentTalFraFil(@"c:\temp\tal.txt");
