@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ArgsDemo": {
+      "commandName": "Project",
+      "commandLineArgs": "c:\\temp\\data.txt db=dæfgjdlæfk /t /q "
+    }
+  }
+}

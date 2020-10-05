@@ -7,15 +7,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intro", "Intro\Intro.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Variabler", "Variabler\Variabler.csproj", "{52F20FEB-4963-43A8-8808-C2A00CC92CD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeKonv", "TypeKonv\TypeKonv.csproj", "{81EDB4DA-EFB6-4EED-BAF7-4A3CED7E5A19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypeKonv", "TypeKonv\TypeKonv.csproj", "{81EDB4DA-EFB6-4EED-BAF7-4A3CED7E5A19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tekst", "Tekst\Tekst.csproj", "{0DA8EB78-2E34-4A81-A41C-2C7E9FEF63FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tekst", "Tekst\Tekst.csproj", "{0DA8EB78-2E34-4A81-A41C-2C7E9FEF63FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konstanter", "Konstanter\Konstanter.csproj", "{E7CE53A0-79E4-4F76-B971-3AB03F16752C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Konstanter", "Konstanter\Konstanter.csproj", "{E7CE53A0-79E4-4F76-B971-3AB03F16752C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metoder", "Metoder\Metoder.csproj", "{2B319672-175A-44DB-9F80-ADBB354CA4FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metoder", "Metoder\Metoder.csproj", "{2B319672-175A-44DB-9F80-ADBB354CA4FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FejlDemo", "FejlDemo\FejlDemo.csproj", "{13A30B8F-AC3A-48AB-8910-2739C2ED4C3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FejlDemo", "FejlDemo\FejlDemo.csproj", "{13A30B8F-AC3A-48AB-8910-2739C2ED4C3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayDemo", "ArrayDemo\ArrayDemo.csproj", "{4A7524DE-3FCC-433F-924F-36872E5B8C33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArgsDemo", "ArgsDemo\ArgsDemo.csproj", "{1D817841-A675-4C76-8D67-3A00AEB273C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListerDemo", "ListerDemo\ListerDemo.csproj", "{D22B7566-A936-4550-A2E2-3EE071E7C1A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +57,18 @@ Global
 		{13A30B8F-AC3A-48AB-8910-2739C2ED4C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13A30B8F-AC3A-48AB-8910-2739C2ED4C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13A30B8F-AC3A-48AB-8910-2739C2ED4C3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A7524DE-3FCC-433F-924F-36872E5B8C33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A7524DE-3FCC-433F-924F-36872E5B8C33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A7524DE-3FCC-433F-924F-36872E5B8C33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A7524DE-3FCC-433F-924F-36872E5B8C33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D817841-A675-4C76-8D67-3A00AEB273C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D817841-A675-4C76-8D67-3A00AEB273C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D817841-A675-4C76-8D67-3A00AEB273C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D817841-A675-4C76-8D67-3A00AEB273C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D22B7566-A936-4550-A2E2-3EE071E7C1A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D22B7566-A936-4550-A2E2-3EE071E7C1A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D22B7566-A936-4550-A2E2-3EE071E7C1A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D22B7566-A936-4550-A2E2-3EE071E7C1A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
