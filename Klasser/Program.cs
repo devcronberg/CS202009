@@ -160,6 +160,10 @@ namespace Klasser
         }
     }
 
+    interface IData { 
+    
+    
+    }
 
     class Halsbånd {
         public int Id;

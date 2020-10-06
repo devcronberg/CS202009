@@ -45,6 +45,11 @@ namespace WinFormDemo
             string json = Newtonsoft.Json.JsonConvert.SerializeObject(a, Newtonsoft.Json.Formatting.Indented);
             MessageBox.Show(json);
         }
+
+        private void minKnap1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
     class Person {

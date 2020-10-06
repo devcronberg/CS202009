@@ -32,6 +32,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.propertyGrid1 = new System.Windows.Forms.PropertyGrid();
             this.button3 = new System.Windows.Forms.Button();
+            this.minKnap1 = new WinFormDemo.MinKnap();
             this.SuspendLayout();
             // 
             // button1
@@ -71,11 +72,24 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // minKnap1
+            // 
+            this.minKnap1.BackColor = System.Drawing.Color.Green;
+            this.minKnap1.ForeColor = System.Drawing.Color.White;
+            this.minKnap1.Location = new System.Drawing.Point(457, 45);
+            this.minKnap1.Name = "minKnap1";
+            this.minKnap1.Size = new System.Drawing.Size(75, 23);
+            this.minKnap1.TabIndex = 4;
+            this.minKnap1.Text = "minKnap1";
+            this.minKnap1.UseVisualStyleBackColor = false;
+            this.minKnap1.Click += new System.EventHandler(this.minKnap1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.minKnap1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.propertyGrid1);
             this.Controls.Add(this.button2);
@@ -93,6 +107,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.PropertyGrid propertyGrid1;
         private System.Windows.Forms.Button button3;
+        private MinKnap minKnap1;
     }
 }
 

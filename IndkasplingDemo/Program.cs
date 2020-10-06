@@ -1,25 +1,33 @@
 ﻿using System;
-
+using MCronberg;
 namespace IndkasplingDemo
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Person p = new Person("Mikkel", 17);
+            //Person p = new Person("Mikkel", 17);
 
-            //p.SetAlder(15);
-            //Console.WriteLine(p.GetAlder());'
-            p.Alder = 15;
-            Console.WriteLine(p.Alder);
+            ////p.SetAlder(15);
+            ////Console.WriteLine(p.GetAlder());'
+            //p.Alder = 15;
+            //Console.WriteLine(p.Alder);
 
-            // Reflection
-            var m = p.GetType().GetMethods();
+            //// Reflection
+            //var m = p.GetType().GetMethods();
 
+            Faktura f = new Faktura();
+            //f.FakturaId = 1;
+            Console.WriteLine(f.FakturaId);
+            Console.WriteLine(f.ToStringEx());
+
+            kat k = new kat();
+            k.Navn = "x";
         }
     }
 
-    class Person {
+    class Person
+    {
 
         // Offentlige felter
         private string navn;
@@ -39,13 +47,16 @@ namespace IndkasplingDemo
         //    return this.alder;
         //}
 
-        public int Alder {
-            get {
+        public int Alder
+        {
+            get
+            {
                 // log
                 // sikkerhed
                 return this.alder;
             }
-            set {
+            set
+            {
                 // log
                 // sikkerhed
                 if (value < 0 || value > 110)
@@ -54,7 +65,8 @@ namespace IndkasplingDemo
             }
         }
 
-        public string NavnMedStort() {
+        public string NavnMedStort()
+        {
             return this.navn.ToUpper();
         }
 
@@ -76,7 +88,8 @@ namespace IndkasplingDemo
 
     }
 
-    class Hund {
+    class Hund
+    {
 
         private int alder;
 
@@ -95,4 +108,41 @@ namespace IndkasplingDemo
         }
 
     }
+
+    class Faktura
+    {
+
+        //private int fakturaId;
+
+        //public int FakturaId
+        //{
+        //    get { return fakturaId; }
+        //    set { fakturaId = value; }
+        //}
+
+        public int FakturaId { get; private set; } = 1;
+        public Faktura()
+        {             
+            FakturaId = 1;
+        }
+
+        public void Gem() {
+            Console.WriteLine("Gemmer " + this.FakturaId);
+        }
+
+    }
+
+    class kat {
+
+        private string _navn;
+
+        public string Navn
+        {
+            get { return _navn; }
+            set { _navn = value; }
+        }
+
+
+    }
+
 }
