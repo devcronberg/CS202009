@@ -29,15 +29,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IndkasplingDemo", "Indkaspl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormDemo", "WinFormDemo\WinFormDemo.csproj", "{1D3D42CB-86A5-4E0F-801F-CC9C61F52AA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Terning", "Terning\Terning.csproj", "{9BF96F8D-C833-4495-93A6-415BFC6745B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Terning", "Terning\Terning.csproj", "{9BF96F8D-C833-4495-93A6-415BFC6745B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nedarvning", "Nedarvning\Nedarvning.csproj", "{3B14DDBD-0758-47C3-84DB-D4E638D28C29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nedarvning", "Nedarvning\Nedarvning.csproj", "{3B14DDBD-0758-47C3-84DB-D4E638D28C29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poly1", "Poly1\Poly1.csproj", "{1418C355-A063-4EDB-9C91-D1B93D690EEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Poly1", "Poly1\Poly1.csproj", "{1418C355-A063-4EDB-9C91-D1B93D690EEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstraktDemo", "AbstraktDemo\AbstraktDemo.csproj", "{5608B0D6-983E-48D6-9F8A-F8BA2C5A1908}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstraktDemo", "AbstraktDemo\AbstraktDemo.csproj", "{5608B0D6-983E-48D6-9F8A-F8BA2C5A1908}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poly2", "Poly2\Poly2.csproj", "{C705E439-092F-4D03-81F2-D11C0E2ED6EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Poly2", "Poly2\Poly2.csproj", "{C705E439-092F-4D03-81F2-D11C0E2ED6EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poly3", "Poly3\Poly3.csproj", "{93DCF00B-A092-40BE-A191-24C1EE5B4736}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceDemo", "InterfaceDemo\InterfaceDemo.csproj", "{D6B2C3D7-7E79-42EF-BFA3-DAA719A74064}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceDemo2", "InterfaceDemo2\InterfaceDemo2.csproj", "{64222CDF-1D0F-447C-8567-1EC914FF8797}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceDemo3", "InterfaceDemo3\InterfaceDemo3.csproj", "{B3610EEE-6977-4B32-8133-54ADB2463FBD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +125,22 @@ Global
 		{C705E439-092F-4D03-81F2-D11C0E2ED6EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C705E439-092F-4D03-81F2-D11C0E2ED6EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C705E439-092F-4D03-81F2-D11C0E2ED6EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93DCF00B-A092-40BE-A191-24C1EE5B4736}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93DCF00B-A092-40BE-A191-24C1EE5B4736}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93DCF00B-A092-40BE-A191-24C1EE5B4736}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93DCF00B-A092-40BE-A191-24C1EE5B4736}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6B2C3D7-7E79-42EF-BFA3-DAA719A74064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6B2C3D7-7E79-42EF-BFA3-DAA719A74064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6B2C3D7-7E79-42EF-BFA3-DAA719A74064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6B2C3D7-7E79-42EF-BFA3-DAA719A74064}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64222CDF-1D0F-447C-8567-1EC914FF8797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64222CDF-1D0F-447C-8567-1EC914FF8797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64222CDF-1D0F-447C-8567-1EC914FF8797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64222CDF-1D0F-447C-8567-1EC914FF8797}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3610EEE-6977-4B32-8133-54ADB2463FBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3610EEE-6977-4B32-8133-54ADB2463FBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3610EEE-6977-4B32-8133-54ADB2463FBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3610EEE-6977-4B32-8133-54ADB2463FBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
