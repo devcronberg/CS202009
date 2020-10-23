@@ -44,8 +44,8 @@ namespace Delegate3
 
         }
 
-        public static Func<int, int, int> Findtf() {
+        //public static Func<int, int, int> Findtf() {
             
-        }
+        //}
     }
 }
